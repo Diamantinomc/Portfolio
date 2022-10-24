@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    background-color: ghostwhite;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.header {
+    display: flex;
+    background-color: #F0FF42;
+}
+
+.logotipo img{
+    width: 80px;
+    margin: 8px;
+}
+
+.lista {
+    padding: 0px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.lista li {
+    list-style: none;
+    display: inline-block;
+}
+
+.lista li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.lista li a:hover {
+    background: #82CD47;
+    border-radius: 5px;
+}
+
+
+
+
