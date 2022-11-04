@@ -38,6 +38,37 @@ body {
     border-radius: 5px;
 }
 
+.inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.informacion {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    color: white   ;
+    background-color: #379237;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.redes-sociales img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.texto {
+    padding-left: 100px;
+    width: 900px;
+}
+
 
 
 
