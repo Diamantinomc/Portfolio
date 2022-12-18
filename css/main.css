@@ -6,69 +6,53 @@ body {
     
 }
 
+/*Inicio cabecera*/
 .header {
-    display: flex;
-    background-color: #F0FF42;
+
 }
 
 .logotipo img{
+    border-radius: 100px;
     width: 80px;
     margin: 8px;
 }
 
 .lista {
-    padding: 0px;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-}
-.lista li {
-    list-style: none;
-    display: inline-block;
-}
 
-.lista li a{
-    text-decoration: none;
-    padding: 20px;
-    display: block;
 }
+/*Fin cabecera*/
 
-.lista li a:hover {
-    background: #82CD47;
-    border-radius: 5px;
+/*Inicio slider*/
+.slider {
+
 }
+/*Fin slider*/
 
+/*Inicio cuerpo de la página*/
 .inicio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+}
+
+.titulo {
+
 }
 
 .informacion {
-    padding-left: 50px;
-    padding-right: 50px;
+
 }
 
+/*Fin cuerpo de la página*/
+
+/*Inicio árbol de enlaces*/
+.arbol {
+
+}
+/*Fin árbol de enlaces*/
+
+/*Inicio footer*/
 .footer {
-    display: grid;
-    grid-template-columns: 60px 60px;
-    color: white   ;
-    background-color: #379237;
-    padding-left: 50px;
-    padding-right: 50px;
+
 }
-
-.redes-sociales img{
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-}
-
-.texto {
-    padding-left: 100px;
-    width: 900px;
-}
-
-
+/*FIn footer*/
 
 
