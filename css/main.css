@@ -8,17 +8,36 @@ body {
 
 /*Inicio cabecera*/
 .header {
-
+    display: flex;
+    background-color: #1A120B;
+    /* flex-direction: row; */
 }
 
 .logotipo img{
     border-radius: 100px;
     width: 80px;
-    margin: 8px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 24px;
 }
 
-.lista {
+.lista ul {
+    display: flex;
+    list-style: none;
 
+}
+
+.lista ul li {
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 5px;
+}
+
+.lista ul li a {
+    text-decoration: none;
+    color: #D5CEA3;
 }
 /*Fin cabecera*/
 
