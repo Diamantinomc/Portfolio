@@ -4,10 +4,12 @@ body {
   font-family: "Rubik", sans-serif;
   font-style: normal;
   background-color: #E3EAF3;
+  padding: 10px;
 }
 
 body p {
   font-size: 14px;
+  line-height: 1.5;
 }
 
 .principal {
@@ -32,15 +34,23 @@ body p {
   text-shadow: 5px 5px 20px gray;
 }
 
+.menu {
+  align-content: center;
+  text-align: center;
+}
+
 .menu ul li {
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 15px;
   list-style-type: none;
   display: inline;
-  padding: 5px 30px;
+  padding: 5px 20px;
   text-decoration: none;
 }
 .menu ul li a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .menu ul li:hover{
   background-color: #5795EA;

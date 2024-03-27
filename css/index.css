@@ -1,53 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-.bienvenida {
-  padding: 20px;
+.cajas {
+  margin: 5px 10px;
+  padding: 5px 20px 0 0;
 }
 
-.titulo-bienvenida {
+.titulo {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
-.cuerpo-bienvenida {
-  display: flex;
+
+
+.cuerpo img {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  margin: 2px;
+  padding-right: 5px;
+  float: left;
+  border-radius: 24px;
 }
 
-.cuerpo-bienvenida img {
-  padding: 20px;
-}
-
-.estudios {
-  padding: 20px;
-}
-
-.titulo-estudios {
-  text-align: center;
-  padding: 20px;
-}
-
-.cuerpo-estudios {
-  display: flex;
-}
-
-.cuerpo-estudios img {
-  padding: 20px;
-}
-
-.bio {
-  padding: 20px;
-}
-
-.titulo-bio {
-  text-align: center;
-  padding: 20px;
-}
-
-.cuerpo-bio {
-  display: flex;
-}
-
-.cuerpo-bio img {
-  padding: 20px;
-}
 

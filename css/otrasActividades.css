@@ -1,0 +1,16 @@
+
+
+.musica #discos {
+  display: flex;
+  flex-direction: row;
+}
+
+.musica #discos iframe{
+  padding: 40px;
+}
+
+
+
+.musica .temas {
+  flex-direction: row;
+}
