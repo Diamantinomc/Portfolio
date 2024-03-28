@@ -4,11 +4,11 @@ body {
   font-family: "Rubik", sans-serif;
   font-style: normal;
   background-color: #E3EAF3;
-  padding: 10px;
+  padding: 1vw;
 }
 
 body p {
-  font-size: 14px;
+  font-size: 2ex;
   line-height: 1.5;
 }
 
@@ -19,18 +19,18 @@ body p {
 .presentacion {
   display: flex;
   color: white;
-  padding: 20px;
+  padding: 2vw;
   }
 
 .presentacion img {
-  width: 100px;
-  height: 100px;
+  width: 10vw;
+  height: 10vw;
   border-radius: 50%;
-  padding: 20px;
+  padding: 2vw;
 }
 
 .presentacion .texto {
-  padding: 10px;
+  padding: 2vw;
   text-shadow: 5px 5px 20px gray;
 }
 
@@ -42,10 +42,10 @@ body p {
 .menu ul li {
   text-align: center;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 1.9ex;
   list-style-type: none;
   display: inline;
-  padding: 5px 20px;
+  padding: 0.5vw 2vw;
   text-decoration: none;
 }
 .menu ul li a{
@@ -54,7 +54,7 @@ body p {
 }
 .menu ul li:hover{
   background-color: #5795EA;
-  border-radius: 20px;
+  border-radius: 20vw;
   transition-property: background-color;
   transition-duration: 0.2s;
   transition-timing-function: linear;
